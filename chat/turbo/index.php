@@ -54,12 +54,12 @@ if ($_SESSION['turbo'] == false) {
       },
       createSubscription: function(data, actions) {
         return actions.subscription.create({
-          plan_id: 'P-2EM018023U217283LMNEDWUY'
+          plan_id: 'P-2EM018023U217283LMNEDWUY' // Do **NOT** change this, EVER, unless you are switching from Sandbox to Production. This changes where and how much people are charged, and is the difference between getting the payment or being scammed.
         });
       },
       onApprove: function(data, actions) {
         $("#alerting").append("<p class='c-g'>Successfully bought Alyocord Turbo for 1 month <br> your subscription ID is "+data.subscriptionID+"</p><form method='post'><button class='button' type='submit' name='submit'>Activate</button></form><br><br>");
-      }
+      } // We should add yearly or lifetime subs, but that's for the future..
   }).render('#paypal-button-container-P-2EM018023U217283LMNEDWUY');
 </script>
 <?php
@@ -75,7 +75,8 @@ if ($_SESSION['turbo'] == false) {
       $qr->execute();
       $row = $qr->fetch();
       $trls = intval($row['turbolast']);
-      $qr->closeCursor();
+      $qr->closeCursor(); 
+      // 
       echo "<h2 class='c-g'>You currently have turbo!</h2><h2 style='color:red;'>Expiring at <br><strong>".gmdate("d/m/y h:i A \U\T\C", $trls + 2630000)."</strong></h2>";
     }
   ?>

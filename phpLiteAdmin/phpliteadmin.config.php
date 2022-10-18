@@ -10,7 +10,7 @@
 // Please see https://bitbucket.org/phpliteadmin/public/wiki/Configuration for more details
 
 //password to gain access
-$password = 'admin';
+$password = 'admin'; // TODO: Change this
 
 //directory relative to this file to search for databases (if false, manually list databases in the $databases variable)
 $directory = '.';
@@ -75,7 +75,7 @@ function leet_text($value)
 $cookie_name = 'pla3412';
 
 //whether or not to put the app in debug mode where errors are outputted
-$debug = false;
+$debug = true; // Change to false for production env
 
 // the user is allowed to create databases with only these extensions
 $allowed_extensions = array('db','db3','sqlite','sqlite3');

@@ -100,7 +100,7 @@ function filter() {
   var message = $("#message");
   var messg = document.getElementById("message");
   var msg = message.val();
-  messg.value = msg.replace("cunt", "good person");
+  messg.value = msg.replace("aepeaeaepapepappapwawfksdjfkafk", "good person");
 }
 
 $(document).keypress(function(e) {

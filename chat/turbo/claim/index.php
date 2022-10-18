@@ -33,7 +33,7 @@ if (!isset($_SESSION['loggedin'])) {
         if (isset($_POST['submit'])) {
          $type = $_POST['submit'];
           
-          if ($type == "staff") {
+          if ($type == "staff") { // can't you just.. set your session to admin?
             // set lastturbo from the database to time()
             // set session['turbo'] to true
             // ok lemme do this
