@@ -9,17 +9,17 @@ session_start();
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="//cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="//alyocord.albishehu.repl.co/style.css">
-  <script src='//alyocord.albishehu.repl.co/script.js'></script>
-  <link rel='icon' type='image/x-icon' href='//alyocord.albishehu.repl.co/cdn-1/favicon.ico'>
+  <link rel="stylesheet" href="//alyocord.com/style.css">
+  <script src='//alyocord.com/script.js'></script>
+  <link rel='icon' type='image/x-icon' href='//alyocord.com/cdn-1/favicon.ico'>
   <title>Login | Alyocord</title>
 </head>
 <body>
   <center>
-    <br> <img src='//alyocord.albishehu.repl.co/cdn-1/favicon.ico' height='75' width='75'> <br>
+    <br> <img src='//alyocord.com/cdn-1/favicon.ico' height='75' width='75'> <br>
     <h1>Alyocord</h1>
     <br><br>
-    <button class='button' onclick='window.location.href = "//alyocord.albishehu.repl.co/app/";'>Home</button> <br> <br>
+    <button class='button' onclick='window.location.href = "//alyocord.com/app/";'>Home</button> <br> <br>
     <button class='button' onclick='history.back();'>Back</button> <br> <br> <br> <br>
     <div class='signup'>
       <form method='post'>
@@ -64,7 +64,7 @@ session_start();
                           $_SESSION['turbo'] = false;
                         }
                         echo "<p style='color: green;'>Successfully logged in as ".$row['username']."</p>";
-                        echo "<p class='c-g'>Click <a href='//alyocord.albishehu.repl.co/app/'>here</a> to go to the main page.</p>";
+                        echo "<p class='c-g'>Click <a href='//alyocord.com/app/'>here</a> to go to the main page.</p>";
                       } else {
                         echo "<p style='color: red;'>Invalid password</p>";
                       }

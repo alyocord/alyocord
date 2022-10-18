@@ -38,7 +38,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         if ($_SESSION['user']['userid'] == null) {
           unset($_SESSION);
-          echo "<script>window.location.href = '//alyocord.albishehu.repl.co/login/';</script>";
+          echo "<script>window.location.href = '//alyocord.com/login/';</script>";
         }
         
 

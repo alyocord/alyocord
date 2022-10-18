@@ -7,7 +7,7 @@ define('GB', 1073741824);
 define('TB', 1099511627776);
 
 if (!isset($_SESSION['loggedin'])) {
-  header("location: //alyocord.albishehu.repl.co/login/");
+  header("location: //alyocord.com/login/");
 }
 
 $db = new PDO('sqlite:../../database.sqlite');
@@ -27,15 +27,15 @@ $tag = $row['nameid'];
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="//cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="//alyocord.albishehu.repl.co/style.css">
-  <script src='//alyocord.albishehu.repl.co/script.js'></script>
-  <link rel='icon' type='image/x-icon' href='//alyocord.albishehu.repl.co/cdn-1/favicon.ico'>
+  <link rel="stylesheet" href="//alyocord.com/style.css">
+  <script src='//alyocord.com/script.js'></script>
+  <link rel='icon' type='image/x-icon' href='//alyocord.com/cdn-1/favicon.ico'>
   <title>Settings</title>
 </head>
 <body>
   <center>
     <br>
-    <button class='button' onclick='location.href = "https://alyocord.albishehu.repl.co/chat/";'>Chat</button>
+    <button class='button' onclick='location.href = "https://alyocord.com/chat/";'>Chat</button>
     <br><br><br><br>
     <form method='post'>
       Set new username:
@@ -79,7 +79,7 @@ $tag = $row['nameid'];
             $stmt->bindValue(":uid", $_POST['delete']);
             $stmt->execute();
             session_destroy();
-            echo "<script>window.location.href = '//alyocord.albishehu.repl.co/login/?del=true';</script>";
+            echo "<script>window.location.href = '//alyocord.com/login/?del=true';</script>";
           }
         }
 
@@ -119,7 +119,7 @@ $tag = $row['nameid'];
                 $stmt->execute();
                 $stmt->closeCursor();
                 $_SESSION['user']['username'] = htmlspecialchars($newUsername);
-                echo "<script>window.location.href = \"https://alyocord.albishehu.repl.co/chat/settings/\";</script>"; 
+                echo "<script>window.location.href = \"https://alyocord.com/chat/settings/\";</script>"; 
               } else {
                 echo "<br><p class='c-r'>Too many users have this username!</p>";
               }
@@ -253,7 +253,7 @@ $tag = $row['nameid'];
         }
         
         if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg") {
-          echo "<br><p class='c-r'>Sorry, only JPG, JPEG & PNG files are allowed. You can upload gif with <a href='//alyocord.albishehu.repl.co/chat/turbo'>Turbo</a></p>";
+          echo "<br><p class='c-r'>Sorry, only JPG, JPEG & PNG files are allowed. You can upload gif with <a href='//alyocord.com/chat/turbo'>Turbo</a></p>";
           $uploadOk = 0;
         }
         

@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION['loggedin'])) {
-  header("Location: //alyocord.albishehu.repl.co/app/");
+  header("Location: //alyocord.com/app/");
 } 
 ?>
 
@@ -36,17 +36,17 @@ Aimee: hi
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="xavsanims.css">
-  <link rel='icon' type='image/x-icon' href='//alyocord.albishehu.repl.co/cdn-1/favicon.ico'>
-  <script src='//alyocord.albishehu.repl.co/script.js'></script>
+  <link rel='icon' type='image/x-icon' href='//alyocord.com/cdn-1/favicon.ico'>
+  <script src='//alyocord.com/script.js'></script>
   <title>Alyocord</title>
   <script src="/node_modules/intersection-observer/intersection-observer.js"></script>
   <script defer src="anims.js"></script>
 </head>
 <body>
   <center>
-    <br> <img src='//alyocord.albishehu.repl.co/cdn-1/favicon.ico' height='75' width='75'> <br>
+    <br> <img src='//alyocord.com/cdn-1/favicon.ico' height='75' width='75'> <br>
     <h1>Alyocord</h1>
-    <button class='button' onclick='window.location.href = "//alyocord.albishehu.repl.co/app/"'>I'm sold! Give me the app already!</button> <br>
+    <button class='button' onclick='window.location.href = "//alyocord.com/app/"'>I'm sold! Give me the app already!</button> <br>
     <br>
     <section class="hidden">
       <h1>Great community</h1>

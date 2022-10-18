@@ -27,7 +27,7 @@ if (isset($_GET['do'])) {
   $kill->bindValue(":uid", $_SESSION['user']['userid']);
   $kill->execute();
   $kill->closeCursor();
-  echo "<script>window.location.href = \"//alyocord.albishehu.repl.co/login?del=true\";</script>";
+  echo "<script>window.location.href = \"//alyocord.com/login?del=true\";</script>";
 }
 
 $db = null;

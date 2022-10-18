@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['loggedin'])) {
-  header("Location: //alyocord.albishehu.repl.co/login/");
+  header("Location: //alyocord.com/login/");
 }
 
 date_default_timezone_set("UTC");
@@ -16,10 +16,10 @@ date_default_timezone_set("UTC");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="//cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   
-  <link rel="stylesheet" href="//alyocord.albishehu.repl.co/style.css">
-  <script src='//alyocord.albishehu.repl.co/jquery-3.6.1.js'></script>
-  <script src='//alyocord.albishehu.repl.co/script.js'></script>
-  <link rel='icon' type='image/x-icon' href='//alyocord.albishehu.repl.co/cdn-1/favicon.ico'>
+  <link rel="stylesheet" href="//alyocord.com/style.css">
+  <script src='//alyocord.com/jquery-3.6.1.js'></script>
+  <script src='//alyocord.com/script.js'></script>
+  <link rel='icon' type='image/x-icon' href='//alyocord.com/cdn-1/favicon.ico'>
   <title>Alyocord Turbo</title>
 </head>
 <body>
@@ -29,7 +29,7 @@ date_default_timezone_set("UTC");
   <br>
   <h3>Get Alyocord Turbo and Unlock Special Perks!</h3>
   <br><br>
-  <button class='button' onclick='window.location.href = "//alyocord.albishehu.repl.co/chat/";'>Chat</button> <br> <br>
+  <button class='button' onclick='window.location.href = "//alyocord.com/chat/";'>Chat</button> <br> <br>
   <button class='button' onclick='history.back();'>Back</button> <br> <br> <br> <br>
     <br>
     <h3>Send messages longer than 2,000 characters! (4,000)</h3>
