@@ -14,7 +14,7 @@ Please don't leak our hard work! We're very passionate about our work (and I hop
 
 # Contributions
 
-Push any updates to the [main branch](https://github.com/alyocord/alyocord/tree/main), any other branch(es) are for security testing and are not designed to be a working nor secure branch. 
+Push any updates to the [master branch](https://github.com/alyocord/alyocord/tree/master), any other branch(es) are for security testing and are not designed to be a working nor secure branch. 
 
 
 # Support
