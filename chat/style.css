@@ -117,11 +117,8 @@ input[type=submit]:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #616161;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #262626;
+  border-radius: 5px;
+  background: #202225;
 }
 
 *:focus {
@@ -203,11 +200,11 @@ input[type=submit]:hover {
   border: transparent;
 }
 
-.dms {
+#dms {
   position: fixed;
   left: 0%;
   height: 100%;
   backgrond: #202225;
   width: 1.5cm;
-  z-index: 1;
+  z-index: 5;
 }
