@@ -1,16 +1,6 @@
 <?php 
-//
-// This is sample configuration file
-//
-// You can configure phpliteadmin in one of 2 ways:
-// 1. Rename phpliteadmin.config.sample.php to phpliteadmin.config.php and change parameters in there.
-//    You can set only your custom settings in phpliteadmin.config.php. All other settings will be set to defaults.
-// 2. Change parameters directly in main phpliteadmin.php file
-//
-// Please see https://bitbucket.org/phpliteadmin/public/wiki/Configuration for more details
-
 //password to gain access
-$password = 'AJJKSJDKLADJ((@(@(AAAAAKLKSLKSLDMXNM!!!fkjsdkfjskd'; // TODO: Change this
+$password = 'AJJKSJDKLADJ((@(@(AAAAAKLKSLKSLDMXNM!!!fkjsdkfjskd'; 
 
 //directory relative to this file to search for databases (if false, manually list databases in the $databases variable)
 $directory = '../';
