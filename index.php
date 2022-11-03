@@ -46,7 +46,7 @@ Aimee: hi
   <center>
     <br> <img src='//alyocord.com/cdn-1/favicon.ico' height='75' width='75'> <br>
     <h1>Alyocord</h1>
-    <button class='button' onclick='window.location.href = "//alyocord.com/app/"'>ya ok just let me enter for fucks sake</button> <br>
+    <button class='button' onclick='window.location.href = "//alyocord.com/app/"'>I'm sold! Give me the app already!</button> <br>
     <br>
     <section class="hidden">
       <h1>Great community</h1>
